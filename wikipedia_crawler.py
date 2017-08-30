@@ -1,8 +1,8 @@
 from bs4 import BeautifulSoup
 import requests, time, urllib
 
-start_url = raw_input("Enter 1st wiki url")
-target_url = raw_input("Enter 2nd wiki url")
+start_url = input("Enter 1st wiki url")
+target_url = input("Enter 2nd wiki url")
 
 article_chain = [start_url]
 
